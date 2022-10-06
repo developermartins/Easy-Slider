@@ -12,7 +12,6 @@ const Slider = () => {
     useEffect(() => {
       setWidth(slider.current.scrollWidth - slider.current.offsetWidth);
     }, []);
-  
 
   return (
     <motion.div ref={ slider } className='slider' whileTap={{ cursor: "grabbing" }}>
