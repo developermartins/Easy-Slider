@@ -7,7 +7,9 @@ const App = () => {
   return (
     <div className="app">
        <h1>Slider</h1>
-        
+        <motion.div className='slider'>
+          <motion.div className='inner-slider'></motion.div>
+        </motion.div>
     </div>
   );
 };
