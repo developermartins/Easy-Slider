@@ -5,3 +5,35 @@
   background-color: #0d1117;
 }
 
+body {
+  margin: 5% 20%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.slider {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.inner-slider {
+  display: flex;
+}
+
+.slider-item {
+  min-height: 40rem;
+  min-width: 30rem;
+  width: 30rem;
+  padding: 40px;
+}
+
+.slider-item img {
+  height: 100%;
+  width: 100%;
+  border-radius: 3rem;
+  object-fit: fill;
+  pointer-events: none;
+}
