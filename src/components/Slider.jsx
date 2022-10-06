@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 import './Slider.css';
-import images from '../img';
+import images from '../data/img';
 
 const Slider = () => {
 
