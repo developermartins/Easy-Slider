@@ -15,14 +15,14 @@ const Slider = () => {
 
   return (
     <motion.div ref={ slider } className='slider' whileTap={{ cursor: "grabbing" }}>
-          <motion.div drag='x' dragConstraints={{ right: 0, left: -width }} className='inner-slider'>
+        <motion.div drag='x' dragConstraints={{ right: 0, left: -width }} className='inner-slider'>
             { images.map((image) => (
               <motion.div className='slider-item' key={ image }>
                 <img src={ image } alt="image" />
               </motion.div>
             )) }
-          </motion.div>
         </motion.div>
+    </motion.div>
   );
 };
 
